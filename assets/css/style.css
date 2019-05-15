@@ -61,6 +61,7 @@ nav {
 }
 
 nav a {
+    clear: both;
     color: #999999;
     text-decoration: none;
     display: inline-block;
@@ -89,7 +90,7 @@ footer {
     width: 100%;
     max-width: 650px;
     float: left;
-    background-origin: 1px solid #dddddd;
+    border: 1px solid #dddddd;
 }
 
 #contact-form ul {
@@ -103,8 +104,9 @@ label,
 input[type=text],
 input[type=email],
 textarea {
+    clear: both;
 	display: block;
-	width: 100%;
+	width: 95%;
 }
 input[type=text],
 input[type=email],
