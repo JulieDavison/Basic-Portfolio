@@ -7,6 +7,10 @@ body {
     background-image: url("../images/lilypads/lilypads.png")
 }
 
+* {
+    box-sizing: border-box;
+}
+
 #mainheader {
     background: #ffffff;
     border-bottom: 2px solid #cccccc;
@@ -44,6 +48,10 @@ p {
     
 }
 
+.clearfix {
+    overflow: auto;
+}
+
 footer {
     clear: both;
     background: #888888;
@@ -65,8 +73,8 @@ footer {
     border: 1px solid #dddddd;
     padding: 30px;
     width: 94%;
-    
-    
+
+
 }
 
 #me {
@@ -96,5 +104,22 @@ nav a {
     margin-left: 15px;
     padding-left: 15px;
     border-left: 1px solid #efefef;
-    
+    line-height: 18px;
+}
+
+nav a:first-child {
+    border-left: 0 none;
+}
+
+.work {
+    width: 275px;
+    overflow: auto;
+    float: left;
+    margin: 20px 0 25px;
+    position: relative;
+}
+
+.work img {
+    opacity: .8;
+
 }
