@@ -1,0 +1,31 @@
+body {
+    color: #777777;
+    background: #ffffff;
+}
+
+#header {
+    border-bottom: 2px solid #cccccc;
+}
+
+.container {
+    width: 100%;
+    max-width: 960px;
+	margin: 0 auto;
+}
+
+footer {
+    background-color: #666666
+}
+
+#main-container {
+    padding-top: 130px;
+}
+
+.main-section {
+    background: #ffffff;
+    border: 1px solid #dddddd;
+    padding: 30px;
+    width: 100%;
+    max-width: 650px;
+    float: left;
+}
