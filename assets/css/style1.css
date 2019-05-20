@@ -13,6 +13,7 @@ body {
     background: #ffffff;
     border-bottom: 2px solid #cccccc;
     overflow: auto;
+    width: 100%;
     
 }
 
