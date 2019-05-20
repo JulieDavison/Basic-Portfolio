@@ -7,14 +7,10 @@ body {
     background-image: url("../images/lilypads/lilypads.png")
 }
 
-
-
 #mainheader {
     background: #ffffff;
     border-bottom: 2px solid #cccccc;
-    overflow: auto;
-    width: 100%;
-    
+    overflow: auto;    
 }
 
 h1 {
